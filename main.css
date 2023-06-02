@@ -1,0 +1,171 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header,
+section h2,
+section h3,
+form button {
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: bold;
+}
+
+header {
+  background-color: #000000;
+  color: #fa6600
+}
+
+header nav li {
+  display: inline;
+  margin-left: 16px;
+  font-size: 18px;
+}
+
+header nav li a {
+  color: #fa6600;
+  text-decoration: none;
+}
+
+header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+body,
+input,
+textarea {
+  font-family: 'Roboto', sans-serif;
+}
+
+section {
+  padding: 24px 0;
+  color:  #0d0f14;
+}
+
+section h2 {
+  margin-bottom: 16px;
+  color: #fa6600;
+}
+
+section h3 {
+  size: 100%;
+  margin: 5%;
+  color: #fa6600;
+}
+
+section p {
+  margin-bottom: 8px;
+  color: #fff;
+}
+
+section ul {
+  justify-content: center;
+  margin-left: 16px;
+}
+
+section .container{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.container {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.logo img {
+  width: 100%;
+}
+
+.produto {
+  margin-right: 16px;
+}
+
+.produto img {
+  width: 100%;
+}
+
+.price {
+  background-color: #0d0f14;
+  color: #ecf0f1;
+  border: none;
+}
+
+.redes {
+  background-color: #ecf0f1;
+  border-radius: 10px;
+  height: 100%;
+  width: 14%;
+}
+
+.social-links li{
+  display: inline;
+}
+
+.social-links li a {
+  text-decoration: none;
+}
+
+.social-links img {
+  height: 24px;
+  margin-right: 8px;
+  margin-left: 4px;
+}
+
+#descrição {
+  background-color: #202020;
+}
+
+section {
+  background-color: #202020;
+}
+
+#contact .container {
+  display: block;
+}
+
+.contact-methods {
+  display: flex;
+  justify-content: space-evenly
+}
+
+form input,
+form textarea,
+form button {
+  border-radius: 10px;
+  display: block;
+  width: 320px;
+  margin-bottom: 8px;
+  padding: 8px;
+  cursor: pointer;
+}
+
+form textarea {
+  resize: none;
+  height: 90px;
+}
+
+form button {
+  background-color: #0d0f14;
+  color: #ecf0f1;
+  border: none;
+}
+
+form button:hover {
+  background-color: #ecf0f1;
+}
+
+input:focus, textarea:focus {
+  background-color: #ecf0f1;
+}
+
+footer {
+  background-color: #000000;
+  color:#ecf0f1;
+  padding: 16px 0;
+}
